@@ -1,0 +1,318 @@
+{
+  "data": {
+    "worktime": [
+      {
+        "dateFrom": "2015-10-27T16:41:16.235Z",
+        "dateTo": "2015-10-27T16:41:52.330Z",
+        "user": 14,
+        "createdAt": "2015-10-27T16:41:18.251Z",
+        "updatedAt": "2015-10-27T16:41:52.338Z",
+        "id": 47
+      },
+      {
+        "dateFrom": "2015-10-27T16:41:39.254Z",
+        "dateTo": "2015-10-27T16:41:47.532Z",
+        "user": 15,
+        "createdAt": "2015-10-27T16:41:40.969Z",
+        "updatedAt": "2015-10-27T16:41:47.539Z",
+        "id": 48
+      },
+      {
+        "dateFrom": "2015-10-27T16:41:58.364Z",
+        "dateTo": "2015-10-27T16:41:58.364Z",
+        "user": 15,
+        "createdAt": "2015-10-27T16:42:00.267Z",
+        "updatedAt": "2015-10-27T16:42:00.267Z",
+        "id": 49
+      },
+      {
+        "dateFrom": "2015-10-27T16:42:29.202Z",
+        "dateTo": "2015-10-27T16:42:29.202Z",
+        "user": 14,
+        "createdAt": "2015-10-27T16:42:31.041Z",
+        "updatedAt": "2015-10-27T16:42:31.041Z",
+        "id": 50
+      },
+      {
+        "dateFrom": "2015-10-27T16:46:12.073Z",
+        "dateTo": "2015-10-27T16:46:12.073Z",
+        "user": 15,
+        "createdAt": "2015-10-27T16:46:13.989Z",
+        "updatedAt": "2015-10-27T16:46:13.989Z",
+        "id": 51
+      },
+      {
+        "dateFrom": "2015-10-27T16:56:03.946Z",
+        "dateTo": "2015-10-27T17:03:49.674Z",
+        "user": 15,
+        "createdAt": "2015-10-27T16:56:05.925Z",
+        "updatedAt": "2015-10-27T17:03:49.683Z",
+        "id": 52
+      },
+      {
+        "dateFrom": "2015-10-27T17:03:53.569Z",
+        "dateTo": "2015-10-27T17:03:53.569Z",
+        "user": 15,
+        "createdAt": "2015-10-27T17:03:55.414Z",
+        "updatedAt": "2015-10-27T17:03:55.414Z",
+        "id": 53
+      },
+      {
+        "dateFrom": "2015-10-27T17:08:03.885Z",
+        "dateTo": "2015-10-27T17:08:03.885Z",
+        "user": 15,
+        "createdAt": "2015-10-27T17:08:05.918Z",
+        "updatedAt": "2015-10-27T17:08:05.918Z",
+        "id": 54
+      },
+      {
+        "dateFrom": "2015-10-27T17:13:55.113Z",
+        "dateTo": "2015-10-27T17:13:55.113Z",
+        "user": 15,
+        "createdAt": "2015-10-27T17:13:57.383Z",
+        "updatedAt": "2015-10-27T17:13:57.383Z",
+        "id": 55
+      },
+      {
+        "dateFrom": "2015-10-27T17:23:08.894Z",
+        "dateTo": "2015-10-27T17:23:08.894Z",
+        "user": 14,
+        "createdAt": "2015-10-27T17:23:10.715Z",
+        "updatedAt": "2015-10-27T17:23:10.715Z",
+        "id": 56
+      },
+      {
+        "dateFrom": "2015-10-27T17:32:42.957Z",
+        "dateTo": "2015-10-27T17:37:31.375Z",
+        "user": 15,
+        "createdAt": "2015-10-27T17:32:45.351Z",
+        "updatedAt": "2015-10-27T17:37:31.385Z",
+        "id": 57
+      },
+      {
+        "dateFrom": "2015-10-27T17:35:28.710Z",
+        "dateTo": "2015-10-27T17:37:38.425Z",
+        "user": 14,
+        "createdAt": "2015-10-27T17:35:30.518Z",
+        "updatedAt": "2015-10-27T17:37:38.433Z",
+        "id": 58
+      },
+      {
+        "dateFrom": "2015-10-27T17:37:35.605Z",
+        "dateTo": "2015-10-27T17:40:58.270Z",
+        "user": 15,
+        "createdAt": "2015-10-27T17:37:37.843Z",
+        "updatedAt": "2015-10-27T17:40:58.279Z",
+        "id": 59
+      },
+      {
+        "dateFrom": "2015-10-27T17:37:47.436Z",
+        "dateTo": "2015-10-27T17:37:47.436Z",
+        "user": 14,
+        "createdAt": "2015-10-27T17:37:49.575Z",
+        "updatedAt": "2015-10-27T17:37:49.575Z",
+        "id": 60
+      },
+      {
+        "dateFrom": "2015-10-27T17:41:02.811Z",
+        "dateTo": "2015-10-27T17:41:23.026Z",
+        "user": 15,
+        "createdAt": "2015-10-27T17:41:04.674Z",
+        "updatedAt": "2015-10-27T17:41:23.034Z",
+        "id": 61
+      },
+      {
+        "dateFrom": "2015-10-27T17:44:20.971Z",
+        "dateTo": "2015-10-27T17:44:20.971Z",
+        "user": 15,
+        "createdAt": "2015-10-27T17:44:23.058Z",
+        "updatedAt": "2015-10-27T17:44:23.058Z",
+        "id": 62
+      },
+      {
+        "dateFrom": "2015-10-27T17:44:55.517Z",
+        "dateTo": "2015-10-27T17:44:55.517Z",
+        "user": 15,
+        "createdAt": "2015-10-27T17:44:57.549Z",
+        "updatedAt": "2015-10-27T17:44:57.549Z",
+        "id": 63
+      },
+      {
+        "dateFrom": "2015-10-27T17:55:18.904Z",
+        "dateTo": "2015-10-27T17:59:38.910Z",
+        "user": 15,
+        "createdAt": "2015-10-27T17:55:21.200Z",
+        "updatedAt": "2015-10-27T17:59:38.918Z",
+        "id": 64
+      },
+      {
+        "dateFrom": "2015-10-27T17:58:48.363Z",
+        "dateTo": "2015-10-27T17:58:48.363Z",
+        "user": 14,
+        "createdAt": "2015-10-27T17:58:50.277Z",
+        "updatedAt": "2015-10-27T17:58:50.277Z",
+        "id": 65
+      },
+      {
+        "dateFrom": "2015-10-27T17:59:43.584Z",
+        "dateTo": "2015-10-27T17:59:43.584Z",
+        "user": 15,
+        "createdAt": "2015-10-27T17:59:45.826Z",
+        "updatedAt": "2015-10-27T17:59:45.826Z",
+        "id": 66
+      },
+      {
+        "dateFrom": "2015-10-27T18:00:27.316Z",
+        "dateTo": "2015-10-27T18:00:27.316Z",
+        "user": 15,
+        "createdAt": "2015-10-27T18:00:29.328Z",
+        "updatedAt": "2015-10-27T18:00:29.328Z",
+        "id": 67
+      },
+      {
+        "dateFrom": "2015-10-27T18:00:42.880Z",
+        "dateTo": "2015-10-27T18:02:35.055Z",
+        "user": 15,
+        "createdAt": "2015-10-27T18:00:44.656Z",
+        "updatedAt": "2015-10-27T18:02:35.093Z",
+        "id": 68
+      },
+      {
+        "dateFrom": "2015-10-27T18:02:48.359Z",
+        "dateTo": "2015-10-27T18:02:48.359Z",
+        "user": 15,
+        "createdAt": "2015-10-27T18:02:50.012Z",
+        "updatedAt": "2015-10-27T18:02:50.012Z",
+        "id": 69
+      },
+      {
+        "dateFrom": "2015-10-27T18:03:08.063Z",
+        "dateTo": "2015-10-27T18:03:45.285Z",
+        "user": 14,
+        "createdAt": "2015-10-27T18:03:09.910Z",
+        "updatedAt": "2015-10-27T18:03:45.293Z",
+        "id": 70
+      },
+      {
+        "dateFrom": "2015-10-27T18:03:16.690Z",
+        "dateTo": "2015-10-27T18:03:24.405Z",
+        "user": 15,
+        "createdAt": "2015-10-27T18:03:18.736Z",
+        "updatedAt": "2015-10-27T18:03:24.412Z",
+        "id": 71
+      },
+      {
+        "dateFrom": "2015-10-27T18:04:32.962Z",
+        "dateTo": "2015-10-27T18:09:24.250Z",
+        "user": 14,
+        "createdAt": "2015-10-27T18:04:34.835Z",
+        "updatedAt": "2015-10-27T18:09:24.259Z",
+        "id": 72
+      }
+    ],
+    "user": [
+      {
+        "surname": "Bangi",
+        "forename": "Angi",
+        "azonosito": "angibangi",
+        "password": "$2a$10$T9EgfyhoEDdOoQlk04I76.KlP/4rl1ekNNxS9PD3n5cXpEjha1aea",
+        "arrival": null,
+        "inwork": false,
+        "role": "alkalmazott",
+        "createdAt": "2015-10-27T16:41:18.219Z",
+        "updatedAt": "2015-10-27T18:09:24.256Z",
+        "id": 14
+      },
+      {
+        "surname": "proba",
+        "forename": "aborp",
+        "azonosito": "proba1",
+        "password": "$2a$10$tQ.fTUnE/SpulZ1QakQKBuUDjwLe9MXVKKzh/Ebp/VudS14lDM2Km",
+        "arrival": null,
+        "inwork": false,
+        "role": "alkalmazott",
+        "createdAt": "2015-10-27T16:41:40.963Z",
+        "updatedAt": "2015-10-27T18:03:24.410Z",
+        "id": 15
+      }
+    ]
+  },
+  "schema": {
+    "worktime": {
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "unique": true
+      },
+      "dateFrom": {
+        "type": "datetime"
+      },
+      "dateTo": {
+        "type": "datetime"
+      },
+      "user": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "user"
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "user": {
+      "azonosito": {
+        "type": "string",
+        "unique": true
+      },
+      "password": {
+        "type": "string"
+      },
+      "surname": {
+        "type": "string"
+      },
+      "forename": {
+        "type": "string"
+      },
+      "inwork": {
+        "type": "boolean",
+        "defaultsTo": false
+      },
+      "arrival": {
+        "type": "datetime",
+        "defaultsTo": 0
+      },
+      "role": {
+        "type": "string",
+        "enum": [
+          "alkalmazott",
+          "fonok"
+        ],
+        "defaultsTo": "alkalmazott"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "user": {
+      "id": 15
+    },
+    "worktime": {
+      "id": 72
+    }
+  }
+}

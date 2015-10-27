@@ -1,0 +1,45 @@
+<div class="row">
+    <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+        {{#each errorMessages}}
+        <div class="alert alert-dismissible alert-danger">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            {{this}}
+        </div>
+        {{/each}}
+        
+        <div class="page-header">
+            <h1>Profil szerkesztése</h1>
+        </div>
+        
+        <form class="form-horizontal" method="post">
+            <fieldset>
+                <div class="form-group">
+                    <label for="surname" class="col-lg-2 control-label">Vezetéknév</label>
+                    <div class="col-lg-10">
+                        <input class="form-control" type="text" id="surname" name="surname" value="{{user.surname}}">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="forename" class="col-lg-2 control-label">Keresztnév</label>
+                    <div class="col-lg-10">
+                        <input class="form-control" type="text" id="forename" name="forename" value="{{user.forename}}">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="azonosito" class="col-lg-2 control-label">Azonosító</label>
+                    <div class="col-lg-10">
+                        <input disabled class="form-control disable" type="text" id="azonosito" name="azonosito" value="{{user.azonosito}}">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <div class="col-lg-10 col-lg-offset-2">
+                        <button type="reset" class="btn btn-default">Töröl</button>
+                        <button type="submit" class="btn btn-primary">Mentés</button>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+
+    </div>
+</div>
