@@ -28,8 +28,13 @@ Főnökként legyen lehetőség a munkaidő törlésére.
 ======
 
 - Felhasználóifelület-modell
-  - Oldalvázlatok
-  - Designterv (nem kell, elég a végső megvalósítás kinézete)
+
+======
+
+![Adatbázisterv](documentation/database.png "Adatbázis terv")
+
+======
+
 - Osztálymodell
 
 ======
