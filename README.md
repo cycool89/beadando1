@@ -1,2 +1,3 @@
-# beadando1
-Beadandó az Alkalmazások fejlesztése c. tárgyhoz
+# Beadandó
+###Beadandó az Alkalmazások fejlesztése c. tárgyhoz
+###Kigyós János
