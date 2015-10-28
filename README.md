@@ -2,9 +2,9 @@
 ###Beadandó az Alkalmazások fejlesztése c. tárgyhoz
 ###Kigyós János
 ######LQPTEW
-------
+======
 ##Követelményanalízis
-------
+======
 A feladat egy munkaidő nyilvántartó alkalmazás fejlesztése.
 Lehessen felhasználóknak (munkavállalóknak, főnököknek) regisztrálni és
 regisztráció után beléphessenek.
@@ -12,9 +12,9 @@ Belépéskor meg tudják nézni és tudják szerkeszteni az eddigi munkaidejüke
 érkezés távozással nyílvántartva.
 
 Főnökként legyen lehetőség a munkaidő törlésére.
-------
+======
 ##Tervezés
-------
+======
 ####Oldaltérkép
 - Főoldal
   - Bejelentkezés
@@ -24,15 +24,15 @@ Főnökként legyen lehetőség a munkaidő törlésére.
   - Munkaidőm
   - Profil szerkesztése
   - Kijelentkezés
-------
+======
 - Felhasználóifelület-modell
   - Oldalvázlatok
   - Designterv (nem kell, elég a végső megvalósítás kinézete)
 - Osztálymodell
   - Adatbázisterv
-------
+======
 ##Implementáció
-------
+======
 Az alkalmazás a [Colud9](c9.io) felületen, nodejs eszközzel lett megvalósítva.
 MVC mintát követ: (Mappaszerkezet)
 - models
@@ -42,13 +42,13 @@ MVC mintát követ: (Mappaszerkezet)
 
 - public
   - kliens oldalhoz szükséges stylus lapok/scriptek
-------
+======
 ##Tesztelés
-------
+======
 
-------
+======
 ##Felhasználói dokumentáció
-------
+======
 Miután megnyitottuk a böngészőben az alkalmazást, láthatjuk a regisztrált alkalmazottak listáját
 és hogy benn tartózkodnak-e.
 Az alkalmazásba regisztrációt követően tudunk belépni.
