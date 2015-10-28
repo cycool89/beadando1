@@ -10,8 +10,8 @@ Lehessen felhasználóknak (munkavállalóknak, főnököknek) regisztrálni és
 regisztráció után beléphessenek.
 Belépéskor meg tudják nézni és tudják szerkeszteni az eddigi munkaidejüket
 érkezés távozással nyílvántartva.
-
 Főnökként legyen lehetőség a munkaidő törlésére.
+
 ======
 ##Tervezés
 ======
@@ -24,7 +24,9 @@ Főnökként legyen lehetőség a munkaidő törlésére.
   - Munkaidőm
   - Profil szerkesztése
   - Kijelentkezés
+
 ======
+
 - Felhasználóifelület-modell
   - Oldalvázlatok
   - Designterv (nem kell, elég a végső megvalósítás kinézete)
@@ -33,15 +35,15 @@ Főnökként legyen lehetőség a munkaidő törlésére.
 ======
 ##Implementáció
 ======
-Az alkalmazás a [Colud9](c9.io) felületen, nodejs eszközzel lett megvalósítva.
+Az alkalmazás a [Colud9](http://c9.io) felületen, nodejs eszközzel lett megvalósítva.
 MVC mintát követ: (Mappaszerkezet)
 - models
 - controllers
 - views
   - mappákban az egyes controllerek nézetei
-
 - public
   - kliens oldalhoz szükséges stylus lapok/scriptek
+
 ======
 ##Tesztelés
 ======
