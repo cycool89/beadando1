@@ -10,14 +10,27 @@
         <tr>
             <th>Kezdés</th>
             <th>Vég</th>
+            {{#if boss}}
+            <th>Törlés</th>
+            {{/if}}
         </tr>   
     </thead>
     <tbody>
+        {{#if boss}}
         {{#each wts}}
         <tr>
-            <td>{{dateFormat dateFrom}}</td>
-            <td>{{dateFormat dateTo}}</td>
+            <td>{{dateFormat this.dateFrom}}</td>
+            <td>{{dateFormat this.dateTo}}</td>
+            <td><a href="/wt/del/{{this.id}}" class="btn">Törlés</a></td>
         </tr>
         {{/each}}
+        {{else}}
+        {{#each wts}}
+        <tr>
+            <td>{{dateFormat this.dateFrom}}</td>
+            <td>{{dateFormat this.dateTo}}</td>
+        </tr>
+        {{/each}}
+        {{/if}}
     </tbody>
 </table>

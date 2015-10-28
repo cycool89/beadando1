@@ -28,10 +28,18 @@
                 <div class="form-group">
                     <label for="azonosito" class="col-lg-2 control-label">Azonosító</label>
                     <div class="col-lg-10">
-                        <input disabled class="form-control disable" type="text" id="azonosito" name="azonosito" value="{{user.azonosito}}">
+                        <input disabled class="form-control" type="text" id="azonosito" name="azonosito" value="{{user.azonosito}}">
                     </div>
                 </div>
-                
+                <div class="form-group">
+                    <label for="role" class="col-lg-2 control-label">Jogkör</label>
+                    <div class="col-lg-10">
+                        <select class="form-control" id="role" name="role">
+                            <option value="alkalmazott">alkalmazott</option>
+                            <option value="fonok" {{#if boss}}selected="selected"{{/if}}>főnök</option>
+                        </select>
+                    </div>
+                </div>
                 <div class="form-group">
                     <div class="col-lg-10 col-lg-offset-2">
                         <button type="reset" class="btn btn-default">Töröl</button>

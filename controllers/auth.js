@@ -54,7 +54,11 @@ router.get('/edit', function(req,res){
     if (!req.isAuthenticated()) {
         res.redirect('/auth');
     }
+    var boss = (req.session.user.role == 'fonok');
+    req.session.user.boss = boss;
+    console.log(req.session.user);
     res.render('auth/edit', {
+        boss: boss,
         errorMessages: req.flash('error')
     });
     console.log('auth /edit oldal');
@@ -63,7 +67,17 @@ router.get('/edit', function(req,res){
 // Módosítás után kijelentkeztet. Visszakell jelentkezni, hogy frissüljenek az adatok
 router.post('/edit', function(req,res){
     req.app.models.user.update({azonosito: req.session.user.azonosito},
-    {forename: req.body.forename, surname: req.body.surname},function(err,recs){console.log(err)});
+    {forename: req.body.forename, surname: req.body.surname, role: req.body.role},function(err,recs){console.log(err)});
+    
+    var d = new Date();
+    console.log('-!-!-!-! logout');
+    console.log(req.session);
+    req.app.models.user.update({azonosito : req.session.user.azonosito }, {inwork: false, arrival : null}, function(err,recs){console.log(err)});
+    req.app.models.worktime.update({id: req.session.wt.id},{dateTo: d},function(err,recs){console.log(err)});
+    
+    req.session.wt = null;
+    req.session.user = null;
+    
     req.logout();
     
     res.redirect('/');
