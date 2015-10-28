@@ -31,7 +31,7 @@ Főnökként legyen lehetőség a munkaidő törlésére.
 
 ======
 
-![Adatbázisterv](documentation/database.png "Adatbázis terv")
+![Mockup](documentation/mockup.jpg "Mockup")
 
 ======
 
