@@ -1,0 +1,21 @@
+{
+  "name": "beadando1",
+  "version": "1.0.0",
+  "homepage": "https://github.com/cycool89/beadando1",
+  "authors": [
+    "cycool89 <cycool89@gmail.com>"
+  ],
+  "description": "Nincs",
+  "main": "server.js",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
