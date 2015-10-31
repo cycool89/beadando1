@@ -1,6 +1,78 @@
 {
-  "data": {},
-  "schema": {},
+  "data": {
+    "worktime": [],
+    "user": []
+  },
+  "schema": {
+    "worktime": {
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "unique": true
+      },
+      "dateFrom": {
+        "type": "datetime"
+      },
+      "dateTo": {
+        "type": "datetime"
+      },
+      "user": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "user"
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "user": {
+      "azonosito": {
+        "type": "string",
+        "unique": true
+      },
+      "password": {
+        "type": "string"
+      },
+      "surname": {
+        "type": "string"
+      },
+      "forename": {
+        "type": "string"
+      },
+      "inwork": {
+        "type": "boolean",
+        "defaultsTo": false
+      },
+      "arrival": {
+        "type": "datetime",
+        "defaultsTo": 0
+      },
+      "role": {
+        "type": "string",
+        "enum": [
+          "alkalmazott",
+          "fonok"
+        ],
+        "defaultsTo": "alkalmazott"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
   "counters": {
     "user": {
       "id": 18

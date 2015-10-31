@@ -1,6 +1,6 @@
 {
   "name": "beadando1",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "====== ##Követelményanalízis ====== A feladat egy munkaidő nyilvántartó alkalmazás fejlesztése. Lehessen felhasználóknak (munkavállalóknak, főnököknek) regisztrálni és regisztráció után beléphessenek. Belépéskor meg tudják nézni és tudják szerkeszteni az eddigi munkaidejüket érkezés távozással nyílvántartva. Főnökként legyen lehetőség a munkaidő törlésére.",
   "main": "server.js",
   "dependencies": {
@@ -31,8 +31,8 @@
     "url": "git+https://github.com/cycool89/beadando1.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "cycool89",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/cycool89/beadando1/issues"
   },
