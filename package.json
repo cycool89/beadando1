@@ -1,5 +1,5 @@
 {
-  "name": "workspace",
+  "name": "beadando1",
   "version": "1.0.0",
   "description": "====== ##Követelményanalízis ====== A feladat egy munkaidő nyilvántartó alkalmazás fejlesztése. Lehessen felhasználóknak (munkavállalóknak, főnököknek) regisztrálni és regisztráció után beléphessenek. Belépéskor meg tudják nézni és tudják szerkeszteni az eddigi munkaidejüket érkezés távozással nyílvántartva. Főnökként legyen lehetőség a munkaidő törlésére.",
   "main": "server.js",
